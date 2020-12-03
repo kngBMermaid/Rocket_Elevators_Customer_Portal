@@ -14587,6 +14587,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/mermaid/CustomerPortal/Rocket_Elevators_Customer_Portal/CustomerPortal/Views/Home/ProductMng.cshtml",
+      "TargetPath": "Views\\Home\\ProductMng.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/mermaid/CustomerPortal/Rocket_Elevators_Customer_Portal/CustomerPortal/Areas/Identity/Pages/Account/Manage/Index.cshtml",
       "TargetPath": "Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
       "FileKind": "mvc"
