@@ -203,3 +203,4 @@
 /home/mermaid/CustomerPortal/Rocket_Elevators_Customer_Portal/CustomerPortal/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/_ViewStart.cshtml.g.cs
 /home/mermaid/CustomerPortal/Rocket_Elevators_Customer_Portal/CustomerPortal/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_LoginPartial.cshtml.g.cs
 /home/mermaid/CustomerPortal/Rocket_Elevators_Customer_Portal/CustomerPortal/obj/Debug/netcoreapp3.1/Razor/Views/Home/ProductMng.cshtml.g.cs
+/home/mermaid/CustomerPortal/Rocket_Elevators_Customer_Portal/CustomerPortal/obj/Debug/netcoreapp3.1/Razor/Views/Home/Intervention.cshtml.g.cs

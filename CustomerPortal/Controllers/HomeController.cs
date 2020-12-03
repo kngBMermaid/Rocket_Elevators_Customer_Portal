@@ -32,6 +32,10 @@ namespace CustomerPortal.Controllers
         {
             return View();
         }
+        public IActionResult Intervention()
+        {
+            return View();
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
