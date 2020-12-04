@@ -206,8 +206,8 @@
 /home/mermaid/CustomerPortal/Rocket_Elevators_Customer_Portal/CustomerPortal/obj/Debug/netcoreapp3.1/Razor/Views/Home/Intervention.cshtml.g.cs
 C:\Users\Louis\Desktop\Week11\Rocket_Elevators_Customer_Portal\CustomerPortal\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\Louis\Desktop\Week11\Rocket_Elevators_Customer_Portal\CustomerPortal\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Users\Louis\Desktop\Week11\Rocket_Elevators_Customer_Portal\CustomerPortal\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\Users\Louis\Desktop\Week11\Rocket_Elevators_Customer_Portal\CustomerPortal\bin\Debug\netcoreapp3.1\global.json
+C:\Users\Louis\Desktop\Week11\Rocket_Elevators_Customer_Portal\CustomerPortal\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\Users\Louis\Desktop\Week11\Rocket_Elevators_Customer_Portal\CustomerPortal\bin\Debug\netcoreapp3.1\CustomerPortal.StaticWebAssets.xml
 C:\Users\Louis\Desktop\Week11\Rocket_Elevators_Customer_Portal\CustomerPortal\bin\Debug\netcoreapp3.1\CustomerPortal.exe
 C:\Users\Louis\Desktop\Week11\Rocket_Elevators_Customer_Portal\CustomerPortal\bin\Debug\netcoreapp3.1\CustomerPortal.deps.json
