@@ -1,15 +1,70 @@
 @{
     ViewData["Title"] = "Intervention Form";
 }
+<center>
+     <script src="~/js/site.js" asp-append-version="true"></script>
 <h1>@ViewData["Title"]</h1>
+</center>
+<div class="tab-content" id="submission-tabContent">        
 
+    <fieldset>
+        <input type="hidden" name="action" value="intervention_send" />
+        @* <div class="col-md-4 mx-auto text-center ">
+            <label for="intervention_clients"><b>Clients</b></label>
+            <select id="client" onChange="change_client()" class="form-control pointer" name="intervention[customer_id]" disabled required>
+                <option value="">--- Select One ---</option> 
+            </select>
+        </div> *@
+        </br>
+        <div class="col-md-4 mx-auto text-center">
+            <label for="intervention_building"><b>Building</b></label>
+            <select id="select_building" onChange="change_building()" class="form-control pointer text-center" name="intervention[building_id]" required>
+                <option value="">--- Select One ---</option>
+            </select>
+        </div>
+        </br>
+        <div class="col-md-4 mx-auto col text-center">
+            <label for="intervention_battery"><b>Battery</b></label>
+            <select id="select_battery" onChange="change_battery()" class="form-control pointer text-center" name="intervention[battery_id]" required>
+                <option value="">--- Select One ---</option>
+            </select>
+        </div>
+        </br>
+        <div class="col-md-4 mx-auto text-center">
+            <label for="intervention_column"><b>Column</b></label>
+            <select id="select_column" onChange="change_column()" class="form-control pointer text-center" name="intervention[column_id]" required>
+                <option value="">--- Select One ---</option>
+                <option value="Nil">None</option>
+            </select>
+        </div>
+        </br>
+        <div class="col-md-4 mx-auto text-center">
+            <label for="intervention_elevator"><b>Elevator</b></label>
+            <select id="elevator" class="form-control pointer text-center" name="intervention[elevator_id]" required>
+                <option value="">--- Select One ---</option>
+                <option value="Nil">None</option>
+            </select>
+        </div>
+        </br>
+        </br>
+        <div class="col-md-4 mx-auto text-center">   
+            <button type="submit" class="btn btn-primary " >Submit Intervention</button>
+        </div>
+    </fieldset>
+</div>
+@* 
 <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-           
 
 
-    <%= form_for :intervention do |f| %>
+
+
+
+
+
+
+             <%= form_for :intervention do |f| %>
     
-<div class="row">
+<div class="tab-content" id="submission-tabContent">
 
 
     <div class= "col-md-12">
@@ -23,7 +78,7 @@
     </div> 
       
     <div class="col-md-12">
-        <%= f.label :company_and_owner %>
+        <label for= ":company_and_owner">
         <%= f.collection_select(:customer_id, Customer.order(:id), :id, :customer_info, {prompt: 'Select Customer'}, {:required => true} )%>
     </div>
 
@@ -49,4 +104,4 @@
         <%= f.label :assigned_employee %>
         <%= f.collection_select(:employee_id, Employee.order(:id), :id, :employee_info, {prompt: 'Select Employee:'}) %>
     </div>	
-</div>
+</div> *@

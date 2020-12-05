@@ -2,6 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System.Net.Http;
+using System.Net.Http.Headers;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
@@ -11,6 +13,10 @@ namespace CustomerPortal
 {
     public class Program
     {
+        public static HttpClient client = new HttpClient{
+
+            BaseAddress = new Uri("https://kngbmermaidapi.azurewebsites.net")
+        };
         public static void Main(string[] args)
         {
             CreateHostBuilder(args).Build().Run();
